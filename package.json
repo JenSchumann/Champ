@@ -2,6 +2,7 @@
   "name": "champ",
   "private": true,
   "dependencies": {
+    "@rails/webpacker": "^3.2.0",
     "autoprefixer": "^6.7.7",
     "babel-core": "^6.24.1",
     "babel-loader": "7.x",
@@ -9,6 +10,7 @@
     "babel-preset-react": "^6.24.1",
     "coffee-loader": "^0.7.3",
     "coffee-script": "^1.12.5",
+    "coffeescript": "1.12.7",
     "compression-webpack-plugin": "^0.4.0",
     "css-loader": "^0.28.0",
     "extract-text-webpack-plugin": "^2.1.0",
@@ -31,6 +33,6 @@
     "webpack-merge": "^4.1.0"
   },
   "devDependencies": {
-    "webpack-dev-server": "^2.4.5"
+    "webpack-dev-server": "^2.11.0"
   }
 }

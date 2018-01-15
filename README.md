@@ -28,6 +28,9 @@ The candidate will complete the outlined steps below. For each step there should
   - [x] **Added a navbar, & styled the index page mostly.  Will come back to this later after the rest of the items are addressed, time willing**
 
   6. Update the application to add the following feature: Whenever a post is created or edited, the factorial of a random number between 1 and 10 should be calculated and shown alongside the title of post in the `show` action. For example, a title could be `My Post about Factorials 120` where 120 is the factorial of 5. Every time the post is created or edited the factorial number should change. The number you generate should be located in its own database column and the actual title should remain as the user entered it so that when they edit a post they do not see the factorial number.
+
+  - [x]  **Have a factorial function ready to add to a js file, but having webpack install issues currently.  Troubleshooting.
+  
   7. Using the pre-installed webpack and react libraries, rewrite the posts scaffold as a single page react application (SPA). Move all JS and CSS into the SPA so that it is being compiled by webpack. Feel free to modify the application in any way to make it a good user experience. Make sure that all CRUD operations on posts can still be performed. Do not use CoffeeScript. Incorporate language features from ES6 and later. You may use Redux if you wish but it is not required.
   8. Move the factorial calculation to the client-side SPA so the application continues to function as it did previously when it was being calculated in Rails.
 
