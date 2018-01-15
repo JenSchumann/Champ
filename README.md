@@ -1,5 +1,7 @@
 # Stukent Champ Challenge
 
+# Jen Schumann's responses to the Stukent/Champ Challenge (initial commit to forked repo)
+
 This is a hiring test for potential Stukent employees who are interested in working on our Ruby on Rails projects. The challenge is designed to see how well the candidate can learn new things in Rails and configure it to be used with a Single Page Application (SPA). This is a Rails 5.1 application. In order to complete the challenge you will need to use `ruby 2.4.1` and `yarn`. If you use rvm, the `.ruby-version` and `.ruby-gemeset` files are already created for you.
 
 ## The Challenge
@@ -21,4 +23,3 @@ To submit your completed challenge, please perform the following:
   1. Export your PostgreSQL databse using `pg_dump` and save it to the root directory of your application. Name the dump file `champ.dump`
   1. Zip up the champ directory into `[YOUR NAME]_champ_challenge.zip`.
   1. Email your zip file or send a download link to `turbo@stukent.com`
-
