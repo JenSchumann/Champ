@@ -13,9 +13,12 @@ The candidate will complete the outlined steps below. For each step there should
 
   2. Change the database from using sqlite to postgres.
 
-  - [x] **think I have postgresql switched over successfully, but will know for certain in a few minutes after I try to create posts & check for successful create mode in pg db
-  
+  - [x] **think I have postgresql switched over successfully, but will know for certain in a few minutes after I try to create posts & check for successful create mode in pg db**
+
   1. Add 5 ficticious posts using the application.
+
+  - [x] **5 posts created & render to page successfully, & when queried using dbconsole (SELECT * FROM posts;) they also show up in db named in config/database.yml with postgresql as the adapter**
+
   1. Add the Spectre (https://picturepan2.github.io/spectre) CSS library to the application and test it to make sure it is working correctly.
   1. Using the Spectre library, update the look and feel of the scaffold to your liking. Do not spend a lot of time on this, just make it look better than the raw Rails scaffolding.
   1. Update the application to add the following feature: Whenever a post is created or edited, the factorial of a random number between 1 and 10 should be calculated and shown alongside the title of post in the `show` action. For example, a title could be `My Post about Factorials 120` where 120 is the factorial of 5. Every time the post is created or edited the factorial number should change. The number you generate should be located in its own database column and the actual title should remain as the user entered it so that when they edit a post they do not see the factorial number.
