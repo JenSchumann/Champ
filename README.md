@@ -11,7 +11,10 @@ The candidate will complete the outlined steps below. For each step there should
 
   - [x] **rails s running, ran migration to create local posts db, localhost:3000/posts shows posts index page ready for creation of new posts**
 
-  1. Change the database from using sqlite to postgres.
+  2. Change the database from using sqlite to postgres.
+
+  - [x] **think I have postgresql switched over successfully, but will know for certain in a few minutes after I try to create posts & check for successful create mode in pg db
+  
   1. Add 5 ficticious posts using the application.
   1. Add the Spectre (https://picturepan2.github.io/spectre) CSS library to the application and test it to make sure it is working correctly.
   1. Using the Spectre library, update the look and feel of the scaffold to your liking. Do not spend a lot of time on this, just make it look better than the raw Rails scaffolding.
