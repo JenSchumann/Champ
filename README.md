@@ -29,8 +29,10 @@ The candidate will complete the outlined steps below. For each step there should
 
   6. Update the application to add the following feature: Whenever a post is created or edited, the factorial of a random number between 1 and 10 should be calculated and shown alongside the title of post in the `show` action. For example, a title could be `My Post about Factorials 120` where 120 is the factorial of 5. Every time the post is created or edited the factorial number should change. The number you generate should be located in its own database column and the actual title should remain as the user entered it so that when they edit a post they do not see the factorial number.
 
-  - [x]  **Have a factorial function ready to add to a js file, but having webpack install issues currently.  Troubleshooting.
-  
+  - [x]  **Have a factorial function ready to add to a js file, but having webpack install issues currently.  Troubleshooting.**
+
+  - [x]  **After I was working on the factorial logic problem in a different file, I came back to this app & started having errors of all sorts (chunk.sortModules is not a function, pg is not installed properly or referred to correctly in the gemfile, etc.).  After checking {{==>overly dramatic==>}} a few hundred times whether I had installed things correctly (including rm -rf'ing the yarn and gemlock files several times to reinstall/bundle/etc., I came across a link while researching the problem which addressed it.  Perhaps I didn't reassign postgresql to begin with, and I'm reading the issue incorrectly.. But I'm up and running again and can now work on integrating the factorial logic into the app).**
+
   7. Using the pre-installed webpack and react libraries, rewrite the posts scaffold as a single page react application (SPA). Move all JS and CSS into the SPA so that it is being compiled by webpack. Feel free to modify the application in any way to make it a good user experience. Make sure that all CRUD operations on posts can still be performed. Do not use CoffeeScript. Incorporate language features from ES6 and later. You may use Redux if you wish but it is not required.
   8. Move the factorial calculation to the client-side SPA so the application continues to function as it did previously when it was being calculated in Rails.
 
