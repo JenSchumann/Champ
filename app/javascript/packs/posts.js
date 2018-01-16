@@ -1,16 +1,26 @@
-console.log('gonna make a change to the show posts through this');
+console.log('packs/posts.js talkin here');
 
 // alert('this is a test alert for the post show page');
 
-//module build fail w/syntax error.. (1..9) NOT LIKED need to rewrite it as an explicit array?  //duuuuhhhhhh.... this is not a .rb file, this is a .js file... needs to be written as a javascript function
-postFactorial = (1..9).to_a.sample
-// p postFactorial
+// postFactorial is name of column to reference in schema
 
+const items = [1,2,3,4,5,6,7,8,9]
+var postFactorial = items[Math.floor(Math.random()*items.length)];
 
-def get_rand_factorial n
-  (1..n).inject(:*) || 1
-//
-end
-//
-// p get_rand_factorial postFactorial
-get_rand_factorial postFactorial
+// console.log(postFactorial);
+
+const f = [];
+
+const randomFactorial = (n) =>{
+
+  if(n == 0  || n == 1)
+    return 1;
+  if(f[n] > 0)
+    return f[n];
+  return f[n] = randomFactorial(n-1) * n;
+  for(n = 1; n <= 9; n++) {
+    n = postFactorial[Math.floor(Math.random()*items.length)];
+  }
+
+};
+console.log("the postFactorial this time is " +  randomFactorial(postFactorial));
