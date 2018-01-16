@@ -35,6 +35,8 @@ The candidate will complete the outlined steps below. For each step there should
 
    - **Link: https://github.com/rails/rails/issues/31673**
 
+   - [x]  **Posts.js is being read by show post page.  While my Ruby factorial function works successfully in the ruby console, I'm getting an error w/it in the app.  Need to rewrite factorial function to address syntax error I currently have (maybe rewrite to include an explicit array).  Traveling today back home from weekend trip that has been planned for a few months.  Going to be hitting the rest of this challenge as soon as back on the road, and when I get home.**
+
   7. Using the pre-installed webpack and react libraries, rewrite the posts scaffold as a single page react application (SPA). Move all JS and CSS into the SPA so that it is being compiled by webpack. Feel free to modify the application in any way to make it a good user experience. Make sure that all CRUD operations on posts can still be performed. Do not use CoffeeScript. Incorporate language features from ES6 and later. You may use Redux if you wish but it is not required.
   8. Move the factorial calculation to the client-side SPA so the application continues to function as it did previously when it was being calculated in Rails.
 
