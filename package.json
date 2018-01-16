@@ -28,11 +28,13 @@
     "react-dom": "^15.5.4",
     "sass-loader": "^6.0.3",
     "style-loader": "^0.17.0",
-    "webpack": "^2.4.1",
     "webpack-manifest-plugin": "^1.1.0",
     "webpack-merge": "^4.1.0"
   },
   "devDependencies": {
+    "inline-manifest-webpack-plugin": "^3.0.1",
+    "use-yarn": "^2.0.1",
+    "webpack": "^3.6.0",
     "webpack-dev-server": "^2.11.0"
   }
 }
