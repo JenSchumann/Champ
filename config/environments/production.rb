@@ -8,8 +8,10 @@ Rails.application.configure do
 
 ##########################################
   # list of files i added to be compiled:
-  config.assets.precompile += %w( alert.js )
+
   config.assets.precompile += %w( application.js )
+  config.assets.precompile += %w( alert.js )
+  config.assets.precompile += %w( posts.js )
 ###########################################
 
   # Code is not reloaded between requests.
