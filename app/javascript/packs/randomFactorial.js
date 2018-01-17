@@ -24,3 +24,5 @@ const randomFactorial = (n) =>{
 
 };
 console.log("the postFactorial this time is " +  randomFactorial(postFactorial));
+
+module.exports = randomFactorial;

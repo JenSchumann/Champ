@@ -15,5 +15,5 @@ Rails.application.config.assets.paths << Rails.root.join('node_modules')
 
 ##############################################
 # added this:
-Rails.application.config.assets.precompile += %w( posts.js )
+Rails.application.config.assets.precompile += %w( randomFactorial.js )
 ##############################################

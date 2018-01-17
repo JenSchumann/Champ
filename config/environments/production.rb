@@ -11,7 +11,7 @@ Rails.application.configure do
 
   config.assets.precompile += %w( application.js )
   config.assets.precompile += %w( alert.js )
-  config.assets.precompile += %w( posts.js )
+  config.assets.precompile += %w( randomFactorial.js )
 ###########################################
 
   # Code is not reloaded between requests.
