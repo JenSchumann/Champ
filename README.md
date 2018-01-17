@@ -39,8 +39,27 @@ The candidate will complete the outlined steps below. For each step there should
 
    - [x]  **duhhhhh.. just realized I'm trying to add a ruby method I wrote in a file that is not a .rb file.  Need to rewrite the function in javascript for the .js file.**
 
+   - [ ]  **Factorial in javascript/packs/randomFactorial is imported & does print out to the console.log successfully.  Seems that a link_to_function tag or jquery approach would render the factorial in the show page, but my attempts to be successful in these approaches didn't work.  Moved on to #7.**
+
   7. Using the pre-installed webpack and react libraries, rewrite the posts scaffold as a single page react application (SPA). Move all JS and CSS into the SPA so that it is being compiled by webpack. Feel free to modify the application in any way to make it a good user experience. Make sure that all CRUD operations on posts can still be performed. Do not use CoffeeScript. Incorporate language features from ES6 and later. You may use Redux if you wish but it is not required.
+
+  - [ ]  **I've come across an error in addressing this task:**
+        ERROR in ./app/javascript/packs/hello_react.jsx
+        Module build failed: SyntaxError: Unexpected token (10:2)
+        webpack: Failed to compile
+
+        I researched the problem and tried some of the things listed here:
+
+        - **Link: https://github.com/rails/webpacker/issues/945**
+
+        **However, I need more clarity on utilizing webpack to fully execute this task.  I'm eager to hear feedback about how I might have addressed this better.**
+
+
   8. Move the factorial calculation to the client-side SPA so the application continues to function as it did previously when it was being calculated in Rails.
+
+  - [ ]  **Factorial calculation is in a javascript/packs/js
+        file & was still logging in the console as an executed function until I ran the following command while addressing #7:**
+        ./bin/webpack-dev-server --host 127.0.0.1
 
 
 ## Challenge Submission

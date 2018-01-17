@@ -1,0 +1,130 @@
+/* line 1, /Users/jennifergeeslin/bootcamped/personal_projects/Stukent/Champ/app/assets/stylesheets/scaffolds.scss */
+body {
+  background-color: #fff7e6;
+  color: #333;
+  margin: 0 auto;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 12, /Users/jennifergeeslin/bootcamped/personal_projects/Stukent/Champ/app/assets/stylesheets/scaffolds.scss */
+h1 {
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* line 17, /Users/jennifergeeslin/bootcamped/personal_projects/Stukent/Champ/app/assets/stylesheets/scaffolds.scss */
+.navbar {
+  background-color: #e2d3a1;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+/* line 23, /Users/jennifergeeslin/bootcamped/personal_projects/Stukent/Champ/app/assets/stylesheets/scaffolds.scss */
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 29, /Users/jennifergeeslin/bootcamped/personal_projects/Stukent/Champ/app/assets/stylesheets/scaffolds.scss */
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+/* line 35, /Users/jennifergeeslin/bootcamped/personal_projects/Stukent/Champ/app/assets/stylesheets/scaffolds.scss */
+a {
+  text-decoration: none;
+}
+/* line 39, /Users/jennifergeeslin/bootcamped/personal_projects/Stukent/Champ/app/assets/stylesheets/scaffolds.scss */
+a:visited {
+  color: #666;
+  text-decoration: none;
+}
+/* line 44, /Users/jennifergeeslin/bootcamped/personal_projects/Stukent/Champ/app/assets/stylesheets/scaffolds.scss */
+a:hover {
+  color: #fff;
+  background-color: #000;
+  text-decoration: none;
+}
+
+/* line 51, /Users/jennifergeeslin/bootcamped/personal_projects/Stukent/Champ/app/assets/stylesheets/scaffolds.scss */
+table {
+  padding: 3%;
+}
+
+/* line 55, /Users/jennifergeeslin/bootcamped/personal_projects/Stukent/Champ/app/assets/stylesheets/scaffolds.scss */
+th {
+  padding-bottom: 5px;
+}
+
+/* line 59, /Users/jennifergeeslin/bootcamped/personal_projects/Stukent/Champ/app/assets/stylesheets/scaffolds.scss */
+td {
+  padding: 0 5px 7px;
+  border: 1px solid #bf8040;
+}
+
+/* line 65, /Users/jennifergeeslin/bootcamped/personal_projects/Stukent/Champ/app/assets/stylesheets/scaffolds.scss */
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+
+/* line 70, /Users/jennifergeeslin/bootcamped/personal_projects/Stukent/Champ/app/assets/stylesheets/scaffolds.scss */
+#notice {
+  color: green;
+}
+
+/* line 74, /Users/jennifergeeslin/bootcamped/personal_projects/Stukent/Champ/app/assets/stylesheets/scaffolds.scss */
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+/* line 80, /Users/jennifergeeslin/bootcamped/personal_projects/Stukent/Champ/app/assets/stylesheets/scaffolds.scss */
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px 7px 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+/* line 87, /Users/jennifergeeslin/bootcamped/personal_projects/Stukent/Champ/app/assets/stylesheets/scaffolds.scss */
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px -7px 0;
+  background-color: #c00;
+  color: #fff;
+}
+/* line 97, /Users/jennifergeeslin/bootcamped/personal_projects/Stukent/Champ/app/assets/stylesheets/scaffolds.scss */
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+
+/* line 103, /Users/jennifergeeslin/bootcamped/personal_projects/Stukent/Champ/app/assets/stylesheets/scaffolds.scss */
+label {
+  display: block;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
